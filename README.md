@@ -1,7 +1,5 @@
 # try-dependabot-secrets
 
-## メモ
-
 - dependabot コンテキストで実行される workflow は actions secret を読めない
 - ある workflow を dependabot が作成した PR イベントでも実行可能にするために dependabot secret を設定する必要がある
 - dependabot が使用する secret は actions secret と同じ名前にする
